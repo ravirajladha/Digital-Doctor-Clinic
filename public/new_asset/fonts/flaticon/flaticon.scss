@@ -1,0 +1,169 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5277f2a69b3476c87360e02ec56eb827") format("truetype"),
+url("./flaticon.woff?5277f2a69b3476c87360e02ec56eb827") format("woff"),
+url("./flaticon.woff2?5277f2a69b3476c87360e02ec56eb827") format("woff2"),
+url("./flaticon.eot?5277f2a69b3476c87360e02ec56eb827#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5277f2a69b3476c87360e02ec56eb827#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "stethoscope": "\f101",
+    "medical-report": "\f102",
+    "medical-doctor": "\f103",
+    "doctor": "\f104",
+    "care": "\f105",
+    "examination": "\f106",
+    "syringe": "\f107",
+    "medicine": "\f108",
+    "medical-history": "\f109",
+    "doctor-1": "\f10a",
+    "medical-report-1": "\f10b",
+    "caduceus": "\f10c",
+    "medical-prescription": "\f10d",
+    "consulting": "\f10e",
+    "laboratory": "\f10f",
+    "injection": "\f110",
+    "medical": "\f111",
+    "heartbeat": "\f112",
+    "x-ray": "\f113",
+    "drugs": "\f114",
+    "first-aid-box": "\f115",
+    "mask": "\f116",
+    "medical-prescription-1": "\f117",
+    "ct-scan": "\f118",
+    "x-ray-1": "\f119",
+    "health-insurance": "\f11a",
+    "healthcare": "\f11b",
+    "healthcare-1": "\f11c",
+    "tooth": "\f11d",
+    "dentist-chair": "\f11e",
+    "cardiology": "\f11f",
+    "cardiology-1": "\f120",
+    "virus": "\f121",
+    "coronavirus": "\f122",
+    "mask-1": "\f123",
+    "disinfectant": "\f124",
+);
+
+.flaticon-stethoscope:before {
+    content: map-get($flaticon-map, "stethoscope");
+}
+.flaticon-medical-report:before {
+    content: map-get($flaticon-map, "medical-report");
+}
+.flaticon-medical-doctor:before {
+    content: map-get($flaticon-map, "medical-doctor");
+}
+.flaticon-doctor:before {
+    content: map-get($flaticon-map, "doctor");
+}
+.flaticon-care:before {
+    content: map-get($flaticon-map, "care");
+}
+.flaticon-examination:before {
+    content: map-get($flaticon-map, "examination");
+}
+.flaticon-syringe:before {
+    content: map-get($flaticon-map, "syringe");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon-map, "medicine");
+}
+.flaticon-medical-history:before {
+    content: map-get($flaticon-map, "medical-history");
+}
+.flaticon-doctor-1:before {
+    content: map-get($flaticon-map, "doctor-1");
+}
+.flaticon-medical-report-1:before {
+    content: map-get($flaticon-map, "medical-report-1");
+}
+.flaticon-caduceus:before {
+    content: map-get($flaticon-map, "caduceus");
+}
+.flaticon-medical-prescription:before {
+    content: map-get($flaticon-map, "medical-prescription");
+}
+.flaticon-consulting:before {
+    content: map-get($flaticon-map, "consulting");
+}
+.flaticon-laboratory:before {
+    content: map-get($flaticon-map, "laboratory");
+}
+.flaticon-injection:before {
+    content: map-get($flaticon-map, "injection");
+}
+.flaticon-medical:before {
+    content: map-get($flaticon-map, "medical");
+}
+.flaticon-heartbeat:before {
+    content: map-get($flaticon-map, "heartbeat");
+}
+.flaticon-x-ray:before {
+    content: map-get($flaticon-map, "x-ray");
+}
+.flaticon-drugs:before {
+    content: map-get($flaticon-map, "drugs");
+}
+.flaticon-first-aid-box:before {
+    content: map-get($flaticon-map, "first-aid-box");
+}
+.flaticon-mask:before {
+    content: map-get($flaticon-map, "mask");
+}
+.flaticon-medical-prescription-1:before {
+    content: map-get($flaticon-map, "medical-prescription-1");
+}
+.flaticon-ct-scan:before {
+    content: map-get($flaticon-map, "ct-scan");
+}
+.flaticon-x-ray-1:before {
+    content: map-get($flaticon-map, "x-ray-1");
+}
+.flaticon-health-insurance:before {
+    content: map-get($flaticon-map, "health-insurance");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon-map, "healthcare");
+}
+.flaticon-healthcare-1:before {
+    content: map-get($flaticon-map, "healthcare-1");
+}
+.flaticon-tooth:before {
+    content: map-get($flaticon-map, "tooth");
+}
+.flaticon-dentist-chair:before {
+    content: map-get($flaticon-map, "dentist-chair");
+}
+.flaticon-cardiology:before {
+    content: map-get($flaticon-map, "cardiology");
+}
+.flaticon-cardiology-1:before {
+    content: map-get($flaticon-map, "cardiology-1");
+}
+.flaticon-virus:before {
+    content: map-get($flaticon-map, "virus");
+}
+.flaticon-coronavirus:before {
+    content: map-get($flaticon-map, "coronavirus");
+}
+.flaticon-mask-1:before {
+    content: map-get($flaticon-map, "mask-1");
+}
+.flaticon-disinfectant:before {
+    content: map-get($flaticon-map, "disinfectant");
+}
